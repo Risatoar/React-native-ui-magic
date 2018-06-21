@@ -1,0 +1,44 @@
+{
+  "name": "react-native-ui-magic",
+  "version": "0.0.1",
+  "description": "a react-native-ui-magic",
+  "main": "index.js",
+  "repository": "https://github.com/xuxiang9608/React-native-ui-magic",
+  "author": "risatoar",
+  "license": "MIT",
+
+  "dependencies": {
+    "lodash.isempty": "^4.4.0",
+    "lodash.times": "^4.3.2",
+    "opencollective": "^1.0.3",
+    "react-native-touchable-scale": "2.0.0",
+    "prop-types": "^15.5.8"
+  },
+  
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-eslint": "^7.1.1",
+    "babel-jest": "^19.0.0",
+    "babel-loader": "^6.3.2",
+    "babel-preset-react-native": "^1.9.1",
+    "codecov": "^2.1.0",
+    "enzyme": "^2.9.1",
+    "enzyme-to-json": "^1.5.0",
+    "eslint": "^3.17.1",
+    "eslint-plugin-react": "^6.10.0",
+    "eslint-plugin-react-native": "^2.3.1",
+    "file-loader": "^0.11.1",
+    "husky": "^0.13.3",
+    "image-webpack-loader": "^3.3.1",
+    "jest": "22.1.4",
+    "lint-staged": "^3.4.0",
+    "prettier": "^1.10.2",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-native": "0.52.2",
+    "react-native-vector-icons": "^4.4.2",
+    "react-test-renderer": "16.2.0",
+    "webpack": "^2.2.1"
+  }
+}
