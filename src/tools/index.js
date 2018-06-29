@@ -1,4 +1,4 @@
-let Tools;
+let Tools = new Object();
 
 /**
  * calculate the second array is added by numbers which are in the first array
@@ -25,29 +25,32 @@ Tools.getContent = (arr, con) => {
  * accurately judging the type of the object
  * @param  {[arg]} Any [description]
 */
-Tools.typeCheck = (arg) => {
-	return Object.prototype.toString.call(arg).slice(8,-1)
+Tools.typeCheck = (obj) => {
+	return Object.prototype.toString.call(obj).slice(8,-1)
 };
 
-// Taken from Underscore.js
 Tools.isObject = (obj) => {
 	return obj === Object(obj);
 }
 
 Tools.isArray = (obj) => {
-	return Object.prototype.toString.call(obj) === '[object Array]';
+	return Tools.typeCheck(obj) === 'Array';
 }
 
 Tools.isDate = (obj) => {
-	return Object.prototype.toString.call(obj) === '[object Date]';
+	return Tools.typeCheck(obj) === 'Date';
+}
+
+Tools.isNumber = (obj) => {
+	return Tools.typeCheck(obj) === 'Number';
 }
 
 Tools.isRegExp = (obj) => {
-	return Object.prototype.toString.call(obj) === '[object RegExp]';
+	return Tools.typeCheck(obj) === 'RegExp';
 }
 
 Tools.isBoolean = (obj) => {
-	return Object.prototype.toString.call(obj) === '[object Boolean]';
+	return Tools.typeCheck(obj) === 'Boolean';
 }
 
 /**

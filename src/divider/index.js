@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { View, StyleSheet } from 'react-native';
-import ViewPropTypes from '../config/ViewPropTypes';
+import PropTypes from 'prop-types';
+import { View, StyleSheet, ViewPropTypes, ColorPropType } from 'react-native';
 
 const hairlineWidth = StyleSheet.hairlineWidth;
 
@@ -8,7 +8,7 @@ export default class Divider extends Component {
 	static propTypes = {
     style: ViewPropTypes.style,
     color: ColorPropType,
-    visible: React.PropTypes.bool,
+    visible: PropTypes.bool,
   };
 
   static defaultProps = {
@@ -17,7 +17,7 @@ export default class Divider extends Component {
 	
 	render() {
 		const { style, visible } = this.props;
-		const visibleStyle = new Object();
+		let visibleStyle = new Object();
 		
 		visibleStyle = visible ? null : { backgroundColor: 'transparent' };
 
