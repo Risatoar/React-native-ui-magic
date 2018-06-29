@@ -1,12 +1,11 @@
 {
   "name": "react-native-ui-magic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a react-native-ui-magic",
   "main": "index.js",
   "repository": "https://github.com/xuxiang9608/React-native-ui-magic",
   "author": "risatoar",
   "license": "MIT",
-
   "dependencies": {
     "lodash.isempty": "^4.4.0",
     "lodash.times": "^4.3.2",
@@ -14,7 +13,6 @@
     "react-native-touchable-scale": "2.0.0",
     "prop-types": "^15.5.8"
   },
-  
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.23.1",
