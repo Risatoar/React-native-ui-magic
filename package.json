@@ -1,8 +1,8 @@
 {
   "name": "react-native-ui-magic",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "a react-native-ui-magic",
-  "main": "index.js",
+  "main": "./src/index.js",
   "repository": "https://github.com/xuxiang9608/React-native-ui-magic",
   "author": "risatoar",
   "license": "MIT",
