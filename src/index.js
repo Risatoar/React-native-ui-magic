@@ -1,9 +1,5 @@
-import Tools from './tools/index';
-import Divider from './divider/index';
-import Ratio from './Ratio/index';
+import Tools from "./tools/index";
+import { MagicFlatList } from "./lists";
+import MagicText from "./text";
 
-export {
-  Tools,
-  Divider,
-  Ratio
-};
+export { Tools, MagicFlatList, MagicText };

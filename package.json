@@ -1,6 +1,6 @@
 {
   "name": "react-native-ui-magic",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "a react-native-ui-magic",
   "main": "./src/index.js",
   "repository": "https://github.com/xuxiang9608/React-native-ui-magic",
@@ -10,8 +10,10 @@
     "lodash.isempty": "^4.4.0",
     "lodash.times": "^4.3.2",
     "opencollective": "^1.0.3",
-    "react-native-touchable-scale": "2.0.0",
-    "prop-types": "^15.5.8"
+    "prop-types": "^15.5.8",
+    "react-native-magic-list": "^0.0.4",
+    "react-native-magic-text": "^0.0.1",
+    "react-native-touchable-scale": "2.0.0"
   },
   "devDependencies": {
     "babel": "^6.23.0",
@@ -32,11 +34,13 @@
     "jest": "22.1.4",
     "lint-staged": "^3.4.0",
     "prettier": "^1.10.2",
-    "react": "16.2.0",
-    "react-dom": "16.2.0",
-    "react-native": "0.52.2",
     "react-native-vector-icons": "^4.4.2",
     "react-test-renderer": "16.2.0",
     "webpack": "^2.2.1"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.5.8",
+    "react": "*",
+    "react-native": ">=0.50.0"
   }
 }
